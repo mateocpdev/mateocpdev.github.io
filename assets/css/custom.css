@@ -4,6 +4,9 @@ a:hover, a:focus{
 .navigation a:hover, .navigation a:focus{
   text-decoration: none;
 }
+a.navigation-link{
+  display: block;
+}
 .content .post .post-meta .date{
   font-size: smaller;
 }
