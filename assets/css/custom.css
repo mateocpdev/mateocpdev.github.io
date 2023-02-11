@@ -1,0 +1,38 @@
+a:hover, a:focus{
+  text-decoration: none;
+}
+.navigation a:hover, .navigation a:focus{
+  text-decoration: none;
+}
+.content .post .post-meta .date{
+  font-size: smaller;
+}
+
+.content .post .post-meta .tags i,
+.content .post .post-meta .tags .tag,
+.content .post .post-meta .tags .separator{
+  font-size: small;
+}
+
+.content .post .post-meta .tags .tag:hover{
+  background-color: #828282;
+}
+
+.content .post .post-meta .tags a{
+  text-decoration: none;
+}
+
+pre{
+  background-color: inherit;
+}
+pre code {
+    display: block;
+    /* color: #333; */
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    max-width: 100%;
+    min-width: 100px;
+    padding: 1rem;
+  }
+  

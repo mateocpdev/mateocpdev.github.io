@@ -1,0 +1,18 @@
+body.colorscheme-light{
+  background-color: #f0f0f0;
+}
+
+pre{
+  background-color: inherit;
+}
+
+pre code {
+    display: block;
+    /* background: #ccc; */
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    max-width: 100%;
+    min-width: 100px;
+    padding: 1rem;
+  }

@@ -1,0 +1,93 @@
+baseurl = "https://mateocpdev.github.io/"
+title = "Mateo Cabodevila"
+theme = "hugo-coder"
+languagecode = "es"
+defaultcontentlanguage = "gl"
+
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4
+
+[params]
+  author = "Mateo Cabodevila Pividal"
+  info = "Python backend developer"
+  description = "Gallician Python backend developer"
+  keywords = "galego,python,poetry,blog,developer,personal"
+  avatarurl = "/images/mateo.png"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "/images/avatar.png"
+  #favicon_32 = "/img/favicon-32x32.png"
+  #favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2010
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  customCSS = ["css/custom.css", "css/custom-light.css", "css/custom-dark.css", "css/syntax.css"]
+  #customCSS = ["css/syntax.css"]
+  #customSCSS = ["scss/custom.scss"]
+  #customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 1
+  url = "https://www.linkedin.com/in/mateo-cp-dev/"
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/mateocpdev/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 3
+  url = "https://gitlab.com/mateo.cp.dev"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 4
+  url = "https://twitter.com/mateo_cp_dev/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+#[[menu.main]]
+#  name = "About"
+#  weight = 2
+#  url = "about/"
+
+
